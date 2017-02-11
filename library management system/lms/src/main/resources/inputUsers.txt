@@ -1,0 +1,5 @@
+#UserType , UniqueUserAssocId , firstname , lastname , postcode 
+Member   , 1234              , Munish    , Jalota   , TW3
+Staff    , 9111              , John      , Smith    , E1
+Staff    , 9111              , John1     , Smith1   , E1
+Member   , 1235              , Munish1   , Jalota1  , TW3

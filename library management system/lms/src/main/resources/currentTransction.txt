@@ -1,0 +1,3 @@
+#UniqueUserAssocId , UniqueAssetId , issuedate 
+1234               , 7             , 2016/02/16/19/22
+9111               , 6             , 2016/02/06/19/22

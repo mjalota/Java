@@ -1,0 +1,11 @@
+#UniqueID, Asset ID, Type , Title                          ,author   , bookISBN , InitialnumberOfCopies, remainingnumberOfCopies
+1	 , 7	  ,  DVD  , Pi                             ,author1  , 1111     , 10                   , 10
+3	 , 2	  ,  Book , The Pragmatic Programmer       ,author3  , 3333     , 10                   , 10
+4	 , 6	  ,  Movie, Hackers                        ,author4  , 4444     , 10                   , 10
+5	 , 3	  ,  Book , Java Concurrency In Practice   ,author5  , 5555     , 10                   , 10
+7	 , 7	  ,  DVD  , Pi                             ,author7  , 7777     , 10                   , 10
+8	 , 4	  ,  Book , Introduction to Algorithms     ,author8  , 8888     , 10                   , 10
+10   	 , 5	  ,  VHS  , WarGames                       ,author10  , 1010     , 10                   , 10
+11	 , 6	  ,  VHS  , Hackers                        ,author11 , 1112     , 10                   , 10
+12	 , 4	  ,  Book , Introduction to Algorithms     ,author12 , 1223     , 10                   , 10
+13	 , 7	  ,  DVD  , Pi                             ,author13 , 1234     , 10                   , 10
