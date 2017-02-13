@@ -33,11 +33,11 @@ public class Data {
 		if (!validateOrder(silverBarOrder))
 			return false ;
 
-		OrderAttributes abc = new OrderAttributes(silverBarOrder.getQuantity() , 
+		OrderAttributes orderAttributes = new OrderAttributes(silverBarOrder.getQuantity() , 
 										silverBarOrder.getPrice(), 
 										silverBarOrder.getOrderType());
 		
-		OrderAttributes existingOrder = cache.putIfAbsent(silverBarOrder.getUserId(), abc);
+		OrderAttributes existingOrder = cache.putIfAbsent(silverBarOrder.getUserId(), orderAttributes);
 		if(existingOrder != null )
 			throw new RuntimeException("UserId/OrderId is not unique " + silverBarOrder.getUserId());
 
